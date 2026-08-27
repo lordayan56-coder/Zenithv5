@@ -1,0 +1,6 @@
+{
+  "name": "ZENITH",
+  "description": "Futuristic Anime Villain AI Brain powered by Google Gemini with reactive rotating 3D purple energy ring, persistent memory core, voice synthesis, and multi-modal strategic intellect.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
