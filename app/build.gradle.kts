@@ -72,7 +72,8 @@ secrets {
 }
 
 googleServices {
-    missingGoogleServicesStrategy = "ignore"
+    missingGoogleServicesStrategy =
+        com.google.gms.googleservices.GoogleServicesPlugin.MissingGoogleServicesStrategy.IGNORE
 }
 
 // Some unused dependencies are commented out below instead of being removed.
