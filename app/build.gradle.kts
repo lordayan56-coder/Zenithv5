@@ -39,6 +39,7 @@ android {
     includeInApk = false
     includeInBundle = true
   }
+
 signingConfigs {
     create("release") {
         val keystorePath = System.getenv("KEYSTORE_PATH")
@@ -57,7 +58,7 @@ buildTypes {
         signingConfig = signingConfigs.getByName("release")
     }
 
-    debug {
+   debug {
         signingConfig = signingConfigs.getByName("debug")
     }
 }
